@@ -93,7 +93,7 @@ header h1 {
 }
 
 header h2 {
-    @include fontSize(60px);
+    @include fontSize(55px);
     @include header-font;
     color: $color-title;
     line-height: 1;

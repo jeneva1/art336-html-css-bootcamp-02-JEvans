@@ -16,6 +16,12 @@ Globals
 }
 
 @font-face {
+  font-family: 'Francois One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Francois One Regular'), local('FrancoisOne-Regular'), url(http://fonts.gstatic.com/s/francoisone/v8/bYbkq2nU2TSx4SwFbz5sCKRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+}
+@font-face {
   font-family: 'Lobster';
   font-style: normal;
   font-weight: 400;
@@ -27,18 +33,6 @@ Globals
   font-weight: 300;
   src: local('Oxygen Light'), local('Oxygen-Light'), url(http://fonts.gstatic.com/s/oxygen/v4/AwBqWF2kjhlybWamaKMPcbO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
 }
-@font-face {
-  font-family: 'Teko';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Teko Regular'), local('Teko-Regular'), url(http://fonts.gstatic.com/s/teko/v5/bMjvOD-LzFymopjMCLfN1vesZW2xOQ-xsNqO47m55DA.woff) format('woff');
-}
-@font-face {
-  font-family: 'Teko';
-  font-style: normal;
-  font-weight: 600;
-  src: local('Teko Semibold'), local('Teko-Semibold'), url(http://fonts.gstatic.com/s/teko/v5/DPXGL_a_0mcqlYNlGyPXNwLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
-}
 
 
 
@@ -46,7 +40,7 @@ Globals
 @mixin body-font-regular {
     font-family: 'Oxygen', georgia, serif;
     font-style: normal;
-    font-weight: 400; 
+    font-weight: 300; 
 }
 
 @mixin body-font-bold {
@@ -62,9 +56,9 @@ Globals
 }
 
 @mixin header-font {
-    font-family: 'Oxygen', helvetica, verdana, sans-serif;
+    font-family: 'Francois One', helvetica, verdana, sans-serif;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 // Site Variables
