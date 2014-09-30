@@ -86,17 +86,18 @@ a:hover {
 
 
 header h1 {
-    @include fontSize(185px);
+    @include fontSize(195px);
     @include headline-font;
     color: $color;
     line-height: 0;
 }
 
 header h2 {
-    @include fontSize(55px);
+    @include fontSize(60px);
     @include header-font;
     color: $color-title;
-    line-height: 1;
+    line-height: 1.1;
+    padding: 20px 0 0 0;
 }
 
 header h3, h4, h5, h6, h7 {

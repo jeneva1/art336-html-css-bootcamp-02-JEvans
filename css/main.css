@@ -404,10 +404,10 @@ Globals
 	Sass variable, mixins, plugins, etc. that are used throughout the entore site.
 */
 @font-face {
-  font-family: 'Francois One';
+  font-family: 'Fjalla One';
   font-style: normal;
   font-weight: 400;
-  src: local("Francois One Regular"), local("FrancoisOne-Regular"), url(http://fonts.gstatic.com/s/francoisone/v8/bYbkq2nU2TSx4SwFbz5sCKRDOzjiPcYnFooOUGCOsRk.woff) format("woff");
+  src: local("Fjalla One"), local("FjallaOne-Regular"), url(http://fonts.gstatic.com/s/fjallaone/v4/rxxXUYj4oZ6Q5oDJFtEd6r3hpw3pgy2gAi-Ip7WPMi0.woff) format("woff");
 }
 @font-face {
   font-family: 'Lobster';
@@ -435,7 +435,7 @@ html {
 
 body {
   background-color: #fff;
-  font-family: 'Oxygen', georgia, serif;
+  font-family: 'Oxygen', Lato, serif;
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
@@ -498,7 +498,7 @@ nav ul li:last-of-type {
 
 a {
   color: #666666;
-  font-family: 'Oxygen', georgia, serif;
+  font-family: 'Oxygen', Lato, serif;
   font-style: normal;
   font-weight: 700;
   transition: color 300ms linear;
@@ -506,16 +506,16 @@ a {
 
 a:hover {
   color: #cccccc;
-  font-family: 'Oxygen', georgia, serif;
+  font-family: 'Oxygen', Lato, serif;
   font-style: normal;
   font-weight: 700;
   transition: color 350ms linear;
 }
 
 header h1 {
-  font-size: 185px;
-  font-size: 11.5625rem;
-  font-family: 'Lobster', helvetica, verdana, sans-serif;
+  font-size: 195px;
+  font-size: 12.1875rem;
+  font-family: 'Lobster', Lobster Two, sans-serif;
   font-style: normal;
   font-weight: 400;
   color: #666666;
@@ -523,19 +523,20 @@ header h1 {
 }
 
 header h2 {
-  font-size: 55px;
-  font-size: 3.4375rem;
-  font-family: 'Francois One', helvetica, verdana, sans-serif;
+  font-size: 60px;
+  font-size: 3.75rem;
+  font-family: 'Fjalla One', Oswald, sans-serif;
   font-style: normal;
   font-weight: 400;
   color: #ff9966;
-  line-height: 1;
+  line-height: 1.1;
+  padding: 20px 0 0 0;
 }
 
 header h3, h4, h5, h6, h7 {
   font-size: 40px;
   font-size: 2.5rem;
-  font-family: 'Lobster', helvetica, verdana, sans-serif;
+  font-family: 'Lobster', Lobster Two, sans-serif;
   font-style: normal;
   font-weight: 400;
   color: #ff9966;
@@ -555,7 +556,7 @@ article div {
   color: #ff9966;
   font-size: 50px;
   font-size: 3.125rem;
-  font-family: 'Lobster', helvetica, verdana, sans-serif;
+  font-family: 'Lobster', Lobster Two, sans-serif;
   font-style: normal;
   font-weight: 400;
   margin: 30px, 0;

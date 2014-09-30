@@ -16,10 +16,10 @@ Globals
 }
 
 @font-face {
-  font-family: 'Francois One';
+  font-family: 'Fjalla One';
   font-style: normal;
   font-weight: 400;
-  src: local('Francois One Regular'), local('FrancoisOne-Regular'), url(http://fonts.gstatic.com/s/francoisone/v8/bYbkq2nU2TSx4SwFbz5sCKRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+  src: local('Fjalla One'), local('FjallaOne-Regular'), url(http://fonts.gstatic.com/s/fjallaone/v4/rxxXUYj4oZ6Q5oDJFtEd6r3hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
 }
 @font-face {
   font-family: 'Lobster';
@@ -37,26 +37,27 @@ Globals
 
 
 
+
 @mixin body-font-regular {
-    font-family: 'Oxygen', georgia, serif;
+    font-family: 'Oxygen', Lato, serif;
     font-style: normal;
     font-weight: 300; 
 }
 
 @mixin body-font-bold {
-    font-family: 'Oxygen', georgia, serif;
+    font-family: 'Oxygen', Lato, serif;
     font-style: normal;
     font-weight: 700;  
 }
 
 @mixin headline-font {
-    font-family: 'Lobster', helvetica, verdana, sans-serif;
+    font-family: 'Lobster', Lobster Two, sans-serif;
     font-style: normal;
     font-weight: 400;
 }
 
 @mixin header-font {
-    font-family: 'Francois One', helvetica, verdana, sans-serif;
+    font-family: 'Fjalla One', Oswald, sans-serif;
     font-style: normal;
     font-weight: 400;
 }
