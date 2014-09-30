@@ -1,0 +1,73 @@
+/* 
+Globals
+	Sass variable, mixins, plugins, etc. that are used throughout the entore site.
+*/
+
+// Function for converting a px based font-size to rem.
+@function calculateRem($size) {
+    $remSize: $size / 16px;
+    @return #{$remSize}rem;
+}
+
+// Mixin that will include the fall back px declaration as well as the calculated rem value.
+@mixin fontSize($size) {
+    font-size: $size;
+    font-size: calculateRem($size);
+}
+
+@font-face {
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lobster'), url(http://fonts.gstatic.com/s/lobster/v9/NIaFDq6p6eLpSvtV2DTNDQLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+}
+@font-face {
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Oxygen Light'), local('Oxygen-Light'), url(http://fonts.gstatic.com/s/oxygen/v4/AwBqWF2kjhlybWamaKMPcbO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+@font-face {
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Teko Regular'), local('Teko-Regular'), url(http://fonts.gstatic.com/s/teko/v5/bMjvOD-LzFymopjMCLfN1vesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Teko Semibold'), local('Teko-Semibold'), url(http://fonts.gstatic.com/s/teko/v5/DPXGL_a_0mcqlYNlGyPXNwLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+}
+
+
+
+
+@mixin body-font-regular {
+    font-family: 'Oxygen', georgia, serif;
+    font-style: normal;
+    font-weight: 400; 
+}
+
+@mixin body-font-bold {
+    font-family: 'Oxygen', georgia, serif;
+    font-style: normal;
+    font-weight: 700;  
+}
+
+@mixin headline-font {
+    font-family: 'Lobster', helvetica, verdana, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+@mixin header-font {
+    font-family: 'Oxygen', helvetica, verdana, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+// Site Variables
+$background-color: #e6e3e3;
+$color: #666666;
+$color-title: #ff9966;
